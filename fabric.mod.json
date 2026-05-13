@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "maxoptimize",
+  "version": "1.0.0",
+  "name": "Max Optimize Mod",
+  "description": "Extreme client optimization",
+  "authors": ["Developer"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "main": [ "OptimizationMod" ] },
+  "mixins": [ "maxoptimize.mixins.json" ],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.4" }
+}
